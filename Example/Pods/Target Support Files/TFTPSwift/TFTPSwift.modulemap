@@ -1,0 +1,6 @@
+framework module TFTPSwift {
+  umbrella header "TFTPSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

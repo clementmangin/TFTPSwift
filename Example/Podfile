@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TFTPSwift_Tests' do
+  pod 'TFTPSwift', :path => '../'
+  
+  
+end

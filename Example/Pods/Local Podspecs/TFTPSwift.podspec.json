@@ -1,0 +1,27 @@
+{
+  "name": "TFTPSwift",
+  "version": "0.1.0",
+  "summary": "A TFTP library written in Swift.",
+  "description": "TFTPSwift is a TFTP library written in Swift that implements most of the RFC 1350.",
+  "homepage": "https://github.com/clementmangin/TFTPSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Clément Mangin": "clement.mangin@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/clementmangin/TFTPSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TFTPSwift/Classes/**/*",
+  "dependencies": {
+    "CocoaAsyncSocket": [
+      "~> 7.6"
+    ]
+  }
+}
